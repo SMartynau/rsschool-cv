@@ -4,20 +4,20 @@
 * __Email:__ martsiroga@gmail.com
 * __Phone:__ +48 571-395-717
 * __Discord:__ Siarhei Martynau (@SMartynau)
----
+
 ## __About Me__
 I am 38 years old
 
 I have a higher economic education
 
 I would like to become a Front-End Developer, so I'm learning at __stage0__ now in __RSSchool__!
-===
+
 ## __Skills__
 * HTML Basic
 * CSS Basic
 * CSS Flex
 * Git
------
+
 ## __Code example__
 ```
 <style>
@@ -38,16 +38,16 @@ I would like to become a Front-End Developer, so I'm learning at __stage0__ now 
 </style>
 <p class="black-white">текст с анимацией</p>
 ```
----
+
 ## __Experience__
 Building your CV using markdown :)
----
+
 ## __Education__
 * Belarusian Agricultural Academy (Belarus)
    - economist-manager
 * Hochschule Anhalt (Germany)
    - Master Food and Agribusiness
----
+   
 ## __Languages__
 * Belarusian - native speaker
 * Russian - native speaker
