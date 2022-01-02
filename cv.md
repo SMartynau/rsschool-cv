@@ -47,7 +47,7 @@ Building your CV using markdown :)
    - economist-manager
 * Hochschule Anhalt (Germany)
    - Master Food and Agribusiness
-   
+
 ## __Languages__
 * Belarusian - native speaker
 * Russian - native speaker
