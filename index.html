@@ -4,10 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="./img/avatar.jpeg">
+    <header class = "header">
+<div class="container">
+<nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+      <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#codeexample" class="nav-link">Code example</a></li>
+      <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+      <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+      <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+    </ul>
+  </nav>
+  </div>
+    </header>
+    <main class = "main">
+        <div class="container main-container">
+            <section class="section" id="avatar">
+                <img src="./assets/img/avatar.jpeg" class="avatar" alt="avatar">       
+            </section>
+            <section class="section" id="profile">
+            <h1 class="section-title">Siarhei Martynau</h1>
+            <h3 class="section-title">student front-end developer</h3>
+        </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Location: Krakow, Poland</li>
+                    <li>Email: martsiroga@gmail.com</li>
+                    <li>Phone: +48 571-395-717</li>
+                    <li>Discord: Siarhei Martynau (@SMartynau)</li>
+                </ul>
+            </section>
+            <section class="section" id="aboutme">
+                <h2 class="section-title">About Me</h2>
+                <div>I am 38 years old</div>
+                <div>I have a higher economic education</div>
+                <div>I would like to become a Front-End Developer, so I'm learning at stage0 now in RSSchool!</div>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML Basic</li>
+                    <li>CSS Basic</li>
+                    <li>CSS Flex</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <p>Building your CV using markdown :)</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>Belarusian Agricultural Academy (Belarus) - economist-manager</li>
+                    <li>Hochschule Anhalt (Germany) - Master Food and Agribusiness</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Belarusian - native speaker</li>
+                    <li>Russian - native speaker</li>
+                    <li>German - B1</li>
+                    <li>Polish - A2</li>
+                    <li>English - A1</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class="container footer-container">
+            <div class="year">© 2022</div>
+                <div class="githublink"> <a href="https://github.com/SMartynau">SMartynau</a></div>
+                <div class="rslink"> <a href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.svg" class="avatar-school" alt="RS School"> </a></div>
+        </div>
+    </footer>
 </body>
 </html>
